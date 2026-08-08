@@ -87,3 +87,6 @@ $(call inherit-product, device/oneplus/sm8850-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/infiniti/infiniti-vendor.mk)
+
+# GameBar Performance Overlay
+$(call inherit-product, packages/apps/GameBar/gamebar.mk)
