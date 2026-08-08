@@ -29,3 +29,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=CPH2745 \
     SystemDevice=OP611FL1 \
     SystemName=CPH2745
+    
+    
+#SakuraConfigs
+SAKURA_MAINTAINER := buildbut
+TARGET_BOOT_ANIMATION_RES := 1080
+SAKURA_BUILD_TYPE := vanilla
+TARGET_HAS_UDFPS:= true 
+PERF_ANIM_OVERRIDE:= false
+BYPASS_CHARGE_SUPPORTED := true
